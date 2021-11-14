@@ -1,0 +1,116 @@
+
+{
+	"buildFiles" : [ "/home/machin/src/AppArmor/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/machin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+	],
+	"libraries" : 
+	{
+		"iron-lib-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "iron-lib",
+			"buildCommand" : "/home/machin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86 --target iron-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/armor.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/keys.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/unzip_helper.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/path_helper.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/pkcs7_helper.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/third/minizip/mz_os.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/third/minizip/mz_os_posix.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/third/minizip/mz_strm_zlib.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/third/minizip/mz_strm.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/third/minizip/mz_strm_buf.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/third/minizip/mz_strm_mem.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/third/minizip/mz_strm_posix.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/third/minizip/mz_strm_split.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Diron_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/machin/src/AppArmor/app/src/main/c/third/minizip/mz_zip.c",
+					"workingDirectory" : "/home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/home/machin/src/AppArmor/app/build/intermediates/cmake/debug/obj/x86/libiron-lib.so",
+			"toolchain" : "15155613916176170952"
+		}
+	},
+	"toolchains" : 
+	{
+		"15155613916176170952" : 
+		{
+			"cCompilerExecutable" : "/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/machin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

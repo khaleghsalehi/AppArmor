@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/machin/src/AppArmor/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/machin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/machin/src/AppArmor/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "iron-lib-Release-armeabi-v7a": {
+      "artifactName": "iron-lib",
+      "buildCommand": "/home/machin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/machin/src/AppArmor/app/.externalNativeBuild/cmake/release/armeabi-v7a --target iron-lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/machin/src/AppArmor/app/build/intermediates/cmake/release/obj/armeabi-v7a/libiron-lib.so"
+    }
+  }
+}

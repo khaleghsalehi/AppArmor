@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/machin/src/AppArmor/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/machin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/machin/src/AppArmor/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+  ],
+  "libraries": {
+    "iron-lib-Release-x86_64": {
+      "artifactName": "iron-lib",
+      "buildCommand": "/home/machin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/machin/src/AppArmor/app/.externalNativeBuild/cmake/release/x86_64 --target iron-lib",
+      "abi": "x86_64",
+      "output": "/home/machin/src/AppArmor/app/build/intermediates/cmake/release/obj/x86_64/libiron-lib.so"
+    }
+  }
+}

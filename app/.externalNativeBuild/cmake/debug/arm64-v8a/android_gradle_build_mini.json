@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/machin/src/AppArmor/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/machin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "iron-lib-Debug-arm64-v8a": {
+      "artifactName": "iron-lib",
+      "buildCommand": "/home/machin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/machin/src/AppArmor/app/.externalNativeBuild/cmake/debug/arm64-v8a --target iron-lib",
+      "abi": "arm64-v8a",
+      "output": "/home/machin/src/AppArmor/app/build/intermediates/cmake/debug/obj/arm64-v8a/libiron-lib.so"
+    }
+  }
+}

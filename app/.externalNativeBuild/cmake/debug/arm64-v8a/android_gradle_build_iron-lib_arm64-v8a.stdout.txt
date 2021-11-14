@@ -1,0 +1,15 @@
+[1/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/armor.c.o
+[2/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/keys.c.o
+[3/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/unzip_helper.c.o
+[4/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/path_helper.c.o
+[5/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/pkcs7_helper.c.o
+[6/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/third/minizip/mz_os.c.o
+[7/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/third/minizip/mz_os_posix.c.o
+[8/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/third/minizip/mz_strm_zlib.c.o
+[9/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/third/minizip/mz_strm.c.o
+[10/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/third/minizip/mz_strm_buf.c.o
+[11/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/third/minizip/mz_strm_mem.c.o
+[12/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/third/minizip/mz_strm_posix.c.o
+[13/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/third/minizip/mz_strm_split.c.o
+[14/15] Building C object CMakeFiles/iron-lib.dir/src/main/c/third/minizip/mz_zip.c.o
+[15/15] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libiron-lib.so
